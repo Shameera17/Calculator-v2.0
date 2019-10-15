@@ -7,12 +7,12 @@ using namespace std;
 double input()
 {
     double num1,num2,ans;
-    char fun;
+    char operator;
 
     cout << "\nEnter the expression:\n\n";
-    cin >> num1 >> fun >> num2;
+    cin >> num1 >> operator >> num2;
 
-    switch (fun)
+    switch (operator)
     {
     case '+':
         {ans = num1 + num2;
